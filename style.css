@@ -1,0 +1,32 @@
+body {
+  background-image: url('image/mainimg.png');
+  background-size: 100vw 100vh;
+  font-family: Verdana;
+}
+ul#navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  overflow: hidden;
+  width: 100px;
+  height: 92.5vh;
+}
+li#navitem {
+  display: block;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  border-bottom: 2px black solid;
+  height: 6.5%;
+}
+li#navitem a {
+  text-decoration: none;
+  text-align: center;
+  color:green;
+}
+
+li#navitem:active {
+  background-color: transparent;
+}
