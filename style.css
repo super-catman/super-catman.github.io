@@ -1,7 +1,8 @@
 body {
   background-image: url('image/mainimg.png');
   background-size: 100vw 100vh;
-  font-family: Verdana;
+  background-repeat: no-repeat;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 ul#navlist {
   list-style-type: none;
@@ -20,11 +21,14 @@ li#navitem {
   text-align: center;
   border-bottom: 2px black solid;
   height: 6.5%;
+  word-wrap: break-word;
+  margin: auto;
 }
 li#navitem a {
   text-decoration: none;
   text-align: center;
   color:green;
+  font-size: 0.9vw;
 }
 
 li#navitem:active {
